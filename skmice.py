@@ -68,7 +68,7 @@ class MiceImputer(object):
 
     def transform(self, X, model_class=LinearRegression, iterations=10):
         # X = np.matrix(X)
-        print('len',len(X.T))
+        # print('len',len(X.T))
         self.mask2 = _get_mask(X, self.missing_values)
         seeded = self._seed_values(X)
         
