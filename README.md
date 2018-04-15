@@ -5,6 +5,12 @@ This repo is created because of the mess of another implementation [scikit-mice]
 
 -------------
 
+## Requirements
+- scipy
+- numpy
+- sklearn
+
+-------------
 ### Documentation:
 The MiceImputer class is similar to the sklearn <a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Imputer.html">Imputer</a> class. 
 
