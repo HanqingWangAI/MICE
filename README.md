@@ -32,7 +32,7 @@ What is returned by MiceImputer is a tuple of imputed values as well as a matrix
 
 ### Example:
 
-```
+``` py
 from sklearn.linear_model import LinearRegression
 import skmice
 
